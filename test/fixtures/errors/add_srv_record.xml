@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <domains>
+        <domain>
+            <name>example.com</name>
+        </domain>
+        <error>failed</error>
+    </domains>
+</page>

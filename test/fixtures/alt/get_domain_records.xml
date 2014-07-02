@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <domains>
+        <domain>
+            <name>example.com</name>
+            <response>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="A" id="66732204">22.78.32.2</record>
+            </response>
+            <nsdelegated/>
+        </domain>
+        <error>ok</error>
+    </domains>
+</page>

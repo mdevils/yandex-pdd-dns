@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <domains>
+        <domain>
+            <name>example.com</name>
+            <response>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="A" id="66732204">22.78.32.2</record>
+                <record domain="mail.example.com" priority="" ttl="21600" subdomain="mail" type="CNAME" id="66732205">domain.mail.yandex.net.</record>
+                <record domain="_xmpp-client._tcp.example.com" priority="20" ttl="21600" subdomain="_xmpp-client._tcp" type="SRV" id="66732206" weight="0" port="5222">domain-xmpp.yandex.net.</record>
+                <record domain="_xmpp-client._tcp.conference.example.com" priority="20" ttl="21600" subdomain="_xmpp-client._tcp.conference" type="SRV" id="66732208" weight="0" port="5222">domain-xmpp.yandex.net.</record>
+                <record domain="_xmpp-server._tcp.example.com" priority="20" ttl="21600" subdomain="_xmpp-server._tcp" type="SRV" id="66732207" weight="0" port="5269">domain-xmpp.yandex.net.</record>
+                <record domain="_xmpp-server._tcp.conference.example.com" priority="20" ttl="21600" subdomain="_xmpp-server._tcp.conference" type="SRV" id="66732209" weight="0" port="5269">domain-xmpp.yandex.net.</record>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="TXT" id="66732203">v=spf1 redirect=_spf.yandex.net</record>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="SOA" id="66732199" refresh="14400" retry="900" expire="1209600" minttl="14400" admin_mail="user.example.com">dns1.yandex.net.</record>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="NS" id="66732201">dns1.yandex.net.</record>
+                <record domain="example.com" priority="" ttl="21600" subdomain="@" type="NS" id="66732200">dns2.yandex.net.</record>
+                <record domain="example.com" priority="10" ttl="21600" subdomain="@" type="MX" id="66732202">mx.yandex.net.</record>
+            </response>
+            <nsdelegated/>
+        </domain>
+        <error>ok</error>
+    </domains>
+</page>
