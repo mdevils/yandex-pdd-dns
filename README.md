@@ -1,5 +1,7 @@
 # yandex-pdd-dns
 
+NodeJS API for Yandex PDD DNS (http://api.yandex.ru/pdd/doc/reference/api-dns.xml).
+
 ## Installation
 
 `yandex-pdd-dns` can be installed using `npm`:
