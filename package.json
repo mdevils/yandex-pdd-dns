@@ -24,7 +24,7 @@
     "vow-fs": "^0.3.2"
   },
   "bin": {
-    "yandex-pdd-dns": "lib/cli.js"
+    "yandex-pdd-dns": "bin/yandex-pdd-dns.js"
   },
   "dependencies": {
     "request": "^2.36.0",
